@@ -1,0 +1,10 @@
+transformers>=4.40.0
+torch>=2.0.0
+numpy>=1.24.0
+rouge-score>=0.1.2
+datasets>=2.14.0
+# Optional for LoRA (Phi-3-mini and GPU fine-tuning)
+peft>=0.10.0
+# Testing
+pytest>=7.4.0
+pytest-timeout>=2.1.0

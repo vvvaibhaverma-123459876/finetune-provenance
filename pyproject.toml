@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finetune-provenance"
+version = "0.1.0"
+description = "LLM fine-tuning pipeline with training data provenance and influence attribution"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "finetune-provenance contributors" }]
+keywords = ["llm", "fine-tuning", "provenance", "influence", "peft", "lora"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "transformers>=4.40.0",
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "rouge-score>=0.1.2",
+    "datasets>=2.14.0",
+]
+
+[project.optional-dependencies]
+lora = ["peft>=0.10.0"]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-timeout>=2.1.0",
+]
+
+[project.scripts]
+finetune-provenance = "finetune_provenance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["finetune_provenance*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+timeout = 300
+log_cli = true
+log_cli_level = "INFO"

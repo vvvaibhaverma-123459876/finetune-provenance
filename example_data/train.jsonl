@@ -1,0 +1,20 @@
+{"text": "The transformer architecture was introduced in the paper Attention Is All You Need by Vaswani et al. in 2017.", "source": "wikipedia", "domain": "technology"}
+{"text": "Fine-tuning a pretrained language model on domain-specific data can significantly improve performance on downstream tasks.", "source": "arxiv", "domain": "technology"}
+{"text": "The mitochondria is the powerhouse of the cell and plays a central role in energy production through cellular respiration.", "source": "biology_textbook", "domain": "science"}
+{"text": "Python is a high-level, interpreted programming language known for its readability and simplicity.", "source": "documentation", "domain": "technology"}
+{"text": "The French Revolution began in 1789 and fundamentally transformed French society and government.", "source": "history_book", "domain": "history"}
+{"text": "Gradient descent is an optimization algorithm used to minimize a loss function by iteratively moving in the direction of steepest descent.", "source": "ml_textbook", "domain": "technology"}
+{"text": "Shakespeare wrote approximately 37 plays and 154 sonnets during his lifetime, exploring themes of love, power, jealousy and betrayal.", "source": "literature_guide", "domain": "literature"}
+{"text": "The human brain contains approximately 86 billion neurons and roughly the same number of non-neuronal cells.", "source": "neuroscience_textbook", "domain": "science"}
+{"text": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties for actions.", "source": "ml_textbook", "domain": "technology"}
+{"text": "The Roman Empire at its height covered around 5 million square kilometers and had a population of roughly 70 million people.", "source": "history_book", "domain": "history"}
+{"text": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water.", "source": "biology_textbook", "domain": "science"}
+{"text": "A neural network consists of layers of interconnected nodes or neurons that process information using connectionist approaches to computation.", "source": "ml_textbook", "domain": "technology"}
+{"text": "In Pride and Prejudice, Jane Austen explores themes of marriage, morality, and misconception through the story of Elizabeth Bennet.", "source": "literature_guide", "domain": "literature"}
+{"text": "Quantum mechanics describes the behavior of matter and energy at the atomic and subatomic levels, where classical physics no longer applies.", "source": "physics_textbook", "domain": "science"}
+{"text": "The Industrial Revolution began in Britain in the late 18th century and transformed manufacturing, transportation, and society.", "source": "history_book", "domain": "history"}
+{"text": "Docker containers package an application and its dependencies together to ensure consistent environments across different computing environments.", "source": "documentation", "domain": "technology"}
+{"text": "Natural language processing is a subfield of linguistics and artificial intelligence concerned with the interactions between computers and human language.", "source": "ai_textbook", "domain": "technology"}
+{"text": "The periodic table organizes chemical elements by their atomic number, electron configuration, and recurring chemical properties.", "source": "chemistry_textbook", "domain": "science"}
+{"text": "Homer's Odyssey is an ancient Greek epic poem attributed to Homer that narrates the adventures of Odysseus after the fall of Troy.", "source": "literature_guide", "domain": "literature"}
+{"text": "The speed of light in a vacuum is approximately 299,792 kilometers per second and is considered a fundamental constant of nature.", "source": "physics_textbook", "domain": "science"}
