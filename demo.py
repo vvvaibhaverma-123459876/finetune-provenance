@@ -37,7 +37,7 @@ with tempfile.TemporaryDirectory() as tmpdir:
     results = tracer.trace(query, top_k=3)
     print(f"\nTop 3 training examples most similar to:\n  '{query}'\n")
     for i, r in enumerate(results, 1):
-        print(f"  {i}. [score={r.score:.3f}] {r.record.text[:65]}...")
-        print(f"       id: {r.record.provenance_id[:16]}...")
+        print(f"  {i}. [score={r.score:.3f}] {r.text[:65]}...")
+        print(f"       id: {r.provenance_id[:16]}...")
 
 print("\nDemo complete.")
